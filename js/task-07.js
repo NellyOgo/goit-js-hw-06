@@ -1,7 +1,6 @@
-var rangeInput = document.getElementById("font-size-control");
-var textElement = document.getElementById("text");
+const rangeInput = document.getElementById("font-size-control");
+const textElement = document.getElementById("text");
 
 rangeInput.addEventListener("input", function() {
-  var fontSize = rangeInput.value + "px";
-  textElement.style.fontSize = fontSize;
+  textElement.style.fontSize = fontSize = rangeInput.value + "px";
 });
