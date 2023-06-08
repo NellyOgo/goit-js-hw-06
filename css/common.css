@@ -22,3 +22,19 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 40px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.block-img {
+  width: 100%;
+ border-radius: 24px;
+}
